@@ -47,6 +47,7 @@ module.exports = function () {
 			config.src + '/favicon.ico'
 		],
 		vendors: {
+<<<<<<< HEAD
 			img: [
 				config.paths.src_vendors + '/slick.js/slick/ajax-loader.gif'
 			],
@@ -64,6 +65,15 @@ module.exports = function () {
 			fonts: [
 				config.paths.src_vendors + '/bootstrap-sass/assets/fonts/bootstrap/*',
 				config.paths.src_vendors + '/slick.js/slick/fonts/*'
+=======
+			img: [],
+			css: [],
+			js: [
+				config.paths.src_vendors + '/bootstrap-sass/assets/javascripts/bootstrap.js'
+			],
+			fonts: [
+				config.paths.src_vendors + '/bootstrap-sass/assets/fonts/bootstrap/*'
+>>>>>>> b5661f5c23aa12c17e585ed15a60bccc5d7c57d8
 			],
 			standalone_img: [],
 			standalone_css: [],

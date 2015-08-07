@@ -14,6 +14,7 @@
 	***********************************/
 	$(document).ready(function(){   
 		
+<<<<<<< HEAD
 		
 		$('input:file').betterInputFile(); //Add a customizable input file to any <input type="file"> tag.
 		 
@@ -21,6 +22,9 @@
 		
 			
 		
+=======
+		//...	
+>>>>>>> b5661f5c23aa12c17e585ed15a60bccc5d7c57d8
 		
 	});//Document ready
 

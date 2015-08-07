@@ -229,10 +229,17 @@ gulp.task('fonts', function () {
 
 gulp.task('browser-sync', function() {
     browserSync.init(null, {
+<<<<<<< HEAD
 		notify: false,
         server: {
             baseDir: config.wf,
 			directory: config.directory_listing,
+=======
+        server: {
+            baseDir: config.wf,
+			directory: config.directory_listing,
+			notify: false
+>>>>>>> b5661f5c23aa12c17e585ed15a60bccc5d7c57d8
         }
     });
 });

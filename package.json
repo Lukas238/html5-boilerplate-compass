@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "future-brand",
   "title": "FutureBrand: Brand Asset Manager",
   "version": "1.0.0",
@@ -18,6 +19,22 @@
     "asset",
     "manager",
     "mrm"
+=======
+  "name": "html5-boilerplate-compass",
+  "title": "Boilerplate for web site with gulp and gulp-compass.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lukas238/html5-boilerplate-compass.git"
+  },
+  "author": "Lucas Dasso <dasso.lucas@c238.com.ar>",
+  "keywords": [
+    "c238",
+	"compass",
+	"scss",
+	"gulp",
+	"boilerplate"
+>>>>>>> b5661f5c23aa12c17e585ed15a60bccc5d7c57d8
   ],
   "main": "gulpfile.js",
   "scripts": {

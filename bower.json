@@ -8,6 +8,10 @@
     "node"
   ],
   "devDependencies": {
+<<<<<<< HEAD
+=======
+    "html5shiv": "~3.7.2",
+>>>>>>> b5661f5c23aa12c17e585ed15a60bccc5d7c57d8
     "bootstrap-sass": "~3.3.5"
   },
   "license": "ISC",
@@ -15,6 +19,7 @@
     "**/.*",
     "node_modules",
     "bower_components",
+<<<<<<< HEAD
     "src/vendors",
     "test",
     "tests"
@@ -26,4 +31,8 @@
     "bootstrap-select": "~1.7.3",
     "jquery": "1.11.3"
   }
+=======
+    "src/vendors"
+  ]
+>>>>>>> b5661f5c23aa12c17e585ed15a60bccc5d7c57d8
 }
