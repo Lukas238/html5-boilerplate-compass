@@ -1,26 +1,44 @@
+##Built in vendors plugins:
 
-###Gulp Tasks
+- [Bootstrap-3]: CSS & [JS components].
+- [Bootstrap-3-SASS]: Mixins.
+- jQuery 1.11.3: a jQuery version compatible with older browsers (_I'm talking to you, IE8_).
+- [better-input-file]:  a jQuery plugin that replaces the _&lt;input type=&quot;file&quot;&gt;_ button with an improved -and translatable- html5 button.
+- [bootstrap-select]: a jQuery plugin that replace the &lt;select&gt; tag with a bootstrap3 dropdown.
+- [Slick-slider]: a responsibe carousel jQuery plugin.
 
-#### Development Task
+
+**Note:** To add new vendors resources, use [Bower], and then add the appropriate resources in the *gulp.config.js* file.  
+The resources will be automatically added to the files **js\vendors.js** and **css\vendors.css** of the project.
+
+
+---
+
+
+##Gulp Tasks
+
+### Development Task
 This task will compile all files from **\src** folder to **\dev** folder, and start the web server for development.
 
 ```
 $	gulp
 ```
 
-#### Components Development Task
+### Components Development Task
 This task will compile all files from **\src** folder to **\components** folder, and start the web server for component development.
 
 ```
 $	gulp comp
 ```
 
-#### Build Task
+### Build Task
 This task will compile all files from **\src** folder to **\dist** folder. Ready for distribution.
 
 ```
 $	gulp build
 ```
+
+---
 
 ##Folder structure
 	+---components
@@ -42,7 +60,6 @@ $	gulp build
 		
 ##Requirements:
 
-###FrontEnd Develop
 - [Git]
 - [Node.js]
 - [Ruby]
@@ -56,6 +73,8 @@ Jus open the git console and run this command:
 
 	$ git config --global url."https://".insteadOf git://
 
+	
+---
 
 ###Misc
 To view this document more easily, install chrome [Markdown Preview Plus] plugin.  
@@ -72,4 +91,12 @@ To view this document more easily, install chrome [Markdown Preview Plus] plugin
 [Ruby]: http://dl.bintray.com/oneclick/rubyinstaller/rubyinstaller-2.2.2.exe
 [Compass]: http://compass-style.org/install/
 [Gulp]: https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
+[Bower]: http://bower.io/search/
+
+[Bootstrap-3]: http://getbootstrap.com/
+[JS components]: http://getbootstrap.com/components/
+[Bootstrap-3-SASS]: http://www.cheatography.com/lukas238/cheat-sheets/bootstrap3-sass-mixins/
 [Bower]: http://bower.io/#install-bower
+[better-input-file]: https://github.com/Lukas238/better-input-file
+[bootstrap-select]: http://silviomoreto.github.io/bootstrap-select/
+[Slick-slider]: http://kenwheeler.github.io/slick/
